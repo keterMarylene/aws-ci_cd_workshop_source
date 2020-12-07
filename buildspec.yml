@@ -10,6 +10,6 @@ phases:
 reports:
   jest_reports:
     files:
-      - jest-report
+      - jest-junit.xml
     file-format: JUNITXML
     base-directory: ./testing-reports
