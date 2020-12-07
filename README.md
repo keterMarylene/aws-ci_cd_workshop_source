@@ -1,6 +1,6 @@
 # Beanstalk web server application
 
-> Building of this project
+> Build badge of this project
 
 ![Build Status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRU9oYVZKc0JUM1J1bjNvQ2xNSktCcVFpYzJ6V1VNZnI3ZExhbGVkLy9WZGpmQUlaSkZJMXpIcHJ6Mk5nRHozRVdyZTdKWFNxaG44bTBZZkMyLzBlZnpRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjZLM0c1bmZoZkZsTG53VUsiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 
