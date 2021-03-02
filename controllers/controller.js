@@ -8,8 +8,6 @@ if (!PROD) {
 
 // Instantiate AWS SDK with credentials
 AWS.config.update({
-    accessKeyId: process.env.aws_access_key,
-    secretAccessKey: process.env.aws_secret_key,
     region: process.env.region,
     endpoint: process.env.service_endpoint
 });
