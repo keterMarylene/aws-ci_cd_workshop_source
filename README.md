@@ -2,10 +2,6 @@
 
 > Source code of a simple NodeJS express server used in labs for an AWS workshop
 
-> Build badge of this project
-
-![Build Status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRU9oYVZKc0JUM1J1bjNvQ2xNSktCcVFpYzJ6V1VNZnI3ZExhbGVkLy9WZGpmQUlaSkZJMXpIcHJ6Mk5nRHozRVdyZTdKWFNxaG44bTBZZkMyLzBlZnpRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjZLM0c1bmZoZkZsTG53VUsiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
-
 ## Creating and runnig a Beanstalk environment
 
 In this lab we will create the CRUP API that will be launched to our Beanstalk environment in the next lab. This CRUD API will interact with our DynamoDB table and showcase simple create, read, update and delete operations for records inside our table.
