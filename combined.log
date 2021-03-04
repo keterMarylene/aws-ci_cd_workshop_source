@@ -1,0 +1,6 @@
+{"service":"artist-service","level":"info","message":"Request time: ","timestamp":"2021-03-04 12:53:45"}
+{"0":"/","service":"artist-service","level":"info","message":"Request path: ","timestamp":"2021-03-04 12:53:45"}
+{"service":"artist-service","level":"info","message":"Request time: ","timestamp":"2021-03-04 12:55:30"}
+{"0":"/","service":"artist-service","level":"info","message":"Request path: ","timestamp":"2021-03-04 12:55:30"}
+{"service":"artist-service","level":"info","message":"Request time: ","timestamp":"2021-03-04 12:56:42"}
+{"0":"/","service":"artist-service","level":"info","message":"Request path: ","timestamp":"2021-03-04 12:56:42"}

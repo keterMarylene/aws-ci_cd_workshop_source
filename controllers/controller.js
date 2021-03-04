@@ -8,8 +8,8 @@ if (!PROD) {
 
 // Instantiate AWS SDK with credentials
 AWS.config.update({
-    region: process.env.region,
-    endpoint: process.env.service_endpoint
+    region: `${process.env.region}`,
+    endpoint: `${process.env.service_endpoint}`
 });
 
 
@@ -74,7 +74,7 @@ exports.findOne = async (req, res) => {
     const docClient = new AWS.DynamoDB.DocumentClient();
 
     const params = {
-        TableName: "myTableName",
+        TableName: "artistTable",
         Key: {
             "Album": album,
             "Artist": artist
@@ -115,7 +115,7 @@ exports.findAll = async (req, res) => {
     // TODO: use dynamoDB instance method batchGetItem
     const docClient = new AWS.DynamoDB.DocumentClient();
     const params = {
-        TableName: "myTableName"
+        TableName: "artistTable"
     }
 
     const requestPromise = new Promise((resolve, reject) => {
@@ -156,7 +156,7 @@ exports.deleteOne = async (req, res) => {
     const docClient = new AWS.DynamoDB.DocumentClient();
 
     const params = {
-        TableName: "myTableName",
+        TableName: "artistTable",
         Key: {
             "Artist": artist,
             "Album": album
@@ -205,7 +205,7 @@ exports.updateOne = async (req, res) => {
     const docClient = new AWS.DynamoDB.DocumentClient();
 
     const params = {
-        TableName: "myTableName",
+        TableName: "artistTable",
         Key: {
             "Artist": artist,
             "Album": album
